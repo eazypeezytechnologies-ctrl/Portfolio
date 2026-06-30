@@ -1,6 +1,6 @@
 # Build Journal
 
-## April 7–June 29, 2026
+## April 7–June 30, 2026
 
 This journal records the major work, setbacks, decisions, and lessons since the previous public Portfolio README update on **April 7, 2026**.
 
@@ -296,4 +296,4 @@ The next phase is focused on:
 
 ---
 
-**Last updated: June 29, 2026**
+**Last updated: June 30, 2026**
