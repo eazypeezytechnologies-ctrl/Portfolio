@@ -1,299 +1,332 @@
 # Build Journal
 
-## April 7–June 30, 2026
+This journal records meaningful progress, setbacks, decisions, and lessons across Eazy Peezy Technologies projects. It does **not** claim that every product is publicly released or production-ready. Active source code, credentials, client data, private pricing, and unpublished product logic remain private.
 
-This journal records the major work, setbacks, decisions, and lessons since the previous public Portfolio README update on **April 7, 2026**.
+## July 1–14, 2026
 
-It is not a claim that every product listed is publicly released or production-ready. It is a transparent record of active product development.
+### Company and Public Portfolio
 
-## Company and Portfolio Foundation
+#### Progress
 
-Eazy Peezy Technologies continued evolving from a collection of app ideas into a more organized studio and product ecosystem.
+- Moved the Eazy Peezy Technologies website from launch preparation into live operations.
+- Updated the website repository documentation to reflect the live site and featured projects.
+- Expanded public project storytelling and added additional project entries to the Work experience.
+- Added referral-system foundations, merch navigation, analytics/privacy improvements, and stronger public visuals.
+- Updated the LinkedIn Services page with mobile development, web development, custom software, IT consulting, technical support, UX design, and software testing.
+- Added SafeBite, OwnOps, and EazyAcres as service-portfolio media and published a progress update connecting earlier research posts to current product development.
 
-### Progress
+#### Challenges
 
-- Established **eazypeezytech.com** as the company hub.
-- Developed the multipage Eazy Peezy Technologies website across services, pricing/consultation, work, research, about, contact, support, privacy, terms, referrals, merch interest, and Technology Care & Management.
-- Clarified the company model: one parent company, multiple independent products and client solutions.
-- Added stronger public project storytelling while keeping sensitive implementation details and internal pricing out of the public experience.
-- Began standardizing project ownership across GitHub, domains, Supabase, service accounts, and operational documentation.
+- The public website and LinkedIn presence already contained launch messaging, so new content had to show progress rather than repeat another “we are live” announcement.
+- Public project pages must be useful without exposing active implementation details or overstating maturity.
+- Service, portfolio, referral, support, and merch experiences can create navigation clutter when each is added independently.
 
-### Challenge
+#### Lessons
 
-The public website initially grew page by page without every navigation and positioning decision being resolved first. Services, pricing, care, project pages, and research content began overlapping.
-
-### Lesson
-
-A public business website needs a clear information architecture, not simply more content. The current cleanup direction is to simplify overlapping experiences, preserve useful routes, and guide each visitor toward an appropriate next action.
-
----
-
-## SafeBite
-
-SafeBite is the allergy and ingredient-safety product in the ecosystem.
-
-### Progress
-
-- Continued barcode and manual product-search planning across food, beauty, and household categories.
-- Focused the current build on product-lookup reliability and visible source information.
-- Addressed a LiveData auto-sync render loop.
-- Strengthened Supabase key handling and replaced project-specific values in public-facing documentation.
-- Merged a Phase 1 recovery effort centered on lookup reliability and source transparency.
-- Continued planning for recalls, allergen profiles, caching, confidence, and multiple data providers.
-
-### Challenges
-
-- Earlier builds existed in more than one repository and platform.
-- Product databases have uneven coverage and may disagree.
-- A visually successful scan is unsafe if the source, ingredient list, or allergen result is stale or incomplete.
-- Demo configuration and production security requirements are different.
-
-### Lessons
-
-- SafeBite must never present uncertain information as a medical guarantee.
-- Product results need source attribution, freshness, confidence, and user-verification guidance.
-- A canonical source repository and controlled backend configuration are essential before broader testing.
+- A live website begins an operations phase; it does not end product work.
+- Public updates should explain what changed since the last update.
+- Portfolio visibility is strongest when service claims are connected to concrete, accurately labeled work.
+- Public status language must distinguish live company infrastructure from products still in prototype, alpha, or launch preparation.
 
 ---
 
-## OwnOps
+### OwnOps
 
-OwnOps has grown from a planning concept into a broader business-readiness and operating-navigation system.
+#### Progress
 
-### Progress
+- Added a source-backed opportunity CSV importer for verified opportunity records.
+- Preserved the existing Admin Import Center while introducing a more controlled production-oriented import path.
+- Added safeguards for duplicates, verification state, deadlines, and source metadata.
+- Hardened the manual importer-repair workflow and validated the build during repair work.
+- Removed temporary repair triggers and workflows after they served their purpose.
+- Added an opportunity-fit evaluation utility.
+- Enabled shortlist items to attach to user projects.
+- Turned the shortlist into a more personalized fit workspace.
+- Added clearer explanations of what a user should do after shortlisting an opportunity.
+- Preserved opportunity context when a user moves into project setup.
 
-- Built a guided wizard around a six-stage business framework.
-- Added business-model classification for different operating paths.
-- Added requirement mapping, jurisdiction administration, saved results, exports, contacts, tasks, filters, and explanations.
-- Improved persistence and several CRUD workflows.
-- Added clearer confirmation, confidence, and manual-override concepts.
-- Continued designing industry intelligence, location suggestions, funding guidance, and next-best actions.
+#### Challenges
 
-### Challenges
+- Source-backed opportunity information can become stale, duplicated, incomplete, or separated from the context that made it relevant.
+- Repairing an importer required temporary automation and validation steps that created noisy Git history.
+- A shortlist alone does not help a founder decide whether an opportunity actually fits their business, readiness, location, or goals.
 
-- “Start a business,” “buy a business,” “improve a business,” and “operate a business” are not the same journey.
-- A restaurant, mobile business, online store, hotel, courier company, and regulated business require different questions and evidence.
-- Real legal, licensing, location, and financial data varies by jurisdiction and changes over time.
-- The tool became powerful faster than it became easy to understand.
+#### Lessons
 
-### Lessons
+- Import pipelines need provenance, deduplication, verification, and deadline handling from the beginning.
+- Temporary repair automation should be easy to identify and remove.
+- “Save” is not a complete user outcome; saved information should connect to evaluation, projects, and next actions.
+- Context must survive transitions between discovery, evaluation, and planning.
 
-- OwnOps needs role- and intent-specific paths.
-- Requirements must be traceable to a jurisdiction and source.
-- Guidance and sequencing are as important as feature depth.
-- Scores and recommendations should explain what they know, what they do not know, and what the owner should verify.
+#### Status
 
----
-
-## EazyAcres
-
-EazyAcres is focused on helping people understand property possibilities, ownership readiness, and the true cost of decisions.
-
-### Progress
-
-- Expanded beyond a basic “What can I build here?” concept.
-- Added renter-to-owner education, true-cost thinking, inspection concerns, land-size translation, funding-readiness concepts, and role-based paths.
-- Developed concepts for funding amount advice, match recommendations, blueprint uploads, property visuals, feedback, and support.
-- Added a long-term requirement for heritage and community context—including historically significant places, displacement risk, preservation considerations, and responsible investment.
-
-### Challenges
-
-- Zoning, parcel, utility, environmental, tax, incentive, and permitting information comes from different authorities.
-- Data availability and terminology vary by city, county, and state.
-- Users may interpret an estimate as permission or a guarantee.
-- Financial readiness is broader than a purchase price or loan amount.
-- Historical significance may be community-documented even when it is not formally designated.
-
-### Lessons
-
-- EazyAcres must distinguish education, estimation, and official verification.
-- Property recommendations need source dates and jurisdiction labels.
-- Heritage and lived community context belong beside zoning and financial data—not in a decorative sidebar.
-- The product should explain tradeoffs and responsible next steps rather than simply ranking properties.
+**Functional prototype; active iteration.** These changes improve workflow depth and data handling, but OwnOps is not being presented as a released legal, licensing, funding, or investment authority.
 
 ---
 
-## Àrokò — Eazy Content Engine
+### Kanto Command Center
 
-Àrokò is the research and content operations system for Eazy Peezy brands and future clients.
+#### Progress
 
-### Progress
+- Implemented budget, activity, and connector foundations for the internal operating dashboard.
+- Corrected budget display and related data issues.
+- Refactored row-level-security helper functions into a private schema.
+- Added credential-expiry enforcement.
+- Closed the first internal security gate.
+- Added deployment configuration while preserving owner-only positioning.
 
-Completed local-first prototype phases for:
+#### Challenges
 
-- dashboard, intake, and saved ideas;
-- research questions and research queue;
-- post-generation structure and prompt preview;
-- brand profiles and brand-voice context;
-- drafts, editing, approval board, and posted status;
-- AI credit guard and safety guidance;
-- Next Best Action guidance;
-- audience fit and culture-fit context.
+- An internal dashboard can expose operational, financial, credential, and cross-project information if access boundaries are weak.
+- Budget and activity summaries are only useful when the underlying data and display logic agree.
+- Security work is easy to postpone when a tool is initially used by one person.
 
-The local-first phase intentionally avoids automatic posting, production database writes, and uncontrolled AI usage.
+#### Lessons
 
-### Challenges
+- Owner-only does not mean security-optional.
+- Security gates should be explicit milestones with clear closure criteria.
+- Credential lifecycle, row-level security, and private-schema separation belong in architecture—not just documentation.
+- Internal dashboards should earn broader access only after controls are verified.
 
-- Early research outputs were too generic.
-- Brand voice alone did not capture audience, culture, lived experience, or community expectations.
-- A content engine can reproduce confident misinformation unless research and source handling are designed first.
-- Platform credit limits made continuous AI iteration impractical.
-- Too many options without guidance made the workflow harder to learn.
+#### Status
 
-### Lessons
-
-- Research, audience, culture, and platform purpose must travel together through the workflow.
-- Local/manual work is valuable for refining brand truth before automating.
-- Approval, editing, and source review are core features.
-- “Next Best Action” guidance reduces cognitive overload and makes a complex system usable.
+**Internal active build.** Kanto remains private and owner-only while security and operations controls mature.
 
 ---
 
-## Eazy Peezy Technologies Website and Technology Care
+### Isekai’d
 
-### Progress
+#### Progress
 
-- Repositioned ongoing support under an umbrella **Technology Care & Management** model.
-- Extended care beyond websites to apps, automations, integrations, and business technology systems.
-- Added care-related inquiry context without exposing internal recurring prices.
-- Preserved the public consultation-deposit model.
-- Added referrals, support content, merch interest, project updates, and navigation improvements.
-- Completed production build and TypeScript checks during pre-publish QA.
+- Added AniList and trace.moe integration foundations for real anime data and screenshot identification.
+- Built full-stack community feature foundations.
+- Implemented a more immersive world-shell interface and updated visual states.
+- Added and refined Creator Studio functionality.
+- Implemented a global Demo Mode and removed or isolated mock content from normal user flows.
+- Shifted screens toward real data, honest preview states, or clear empty states instead of presenting demo content as user data.
 
-### Challenges
+#### Challenges
 
-- Public pricing and internal service planning were becoming mixed.
-- “Website care” was too narrow for the actual company.
-- Some pages repeated similar information and created navigation clutter.
-- Portfolio pages needed accurate project status rather than inflated claims.
+- Third-party anime data, local user records, and provider identifiers need clean separation.
+- Demo content can make a prototype look complete while hiding missing real-data paths.
+- Community and creator features increase moderation, role, privacy, and persistence requirements.
+- Mobile behavior still requires manual QA and stabilization.
 
-### Lessons
+#### Lessons
 
-- Public communication should be clear without exposing internal planning details.
-- Care services should reflect the full technology lifecycle.
-- Client ownership, portability, and clean handoff should be part of the service model.
-- A credible portfolio must distinguish active, prototype, launch-ready, and future work.
+- Demo Mode should be explicit and shared across the product.
+- Real-data integrations should preserve local identifiers separately from provider IDs.
+- Honest empty states are more trustworthy than polished mock activity.
+- Community features are not complete without role, safety, moderation, and data-boundary planning.
 
----
+#### Status
 
-## UnapologeticallyDeee
-
-### Progress
-
-- Continued development of the creator-business website and future Deee HQ concept.
-- Separated legal founder/owner information from the public talent identity.
-- Updated founder and talent pages.
-- Fixed shop and inquiry experiences.
-- Developed the Work With Us experience.
-- Planned future talent profiles, creator analytics, media-kit tracking, affiliate performance, and inquiry/conversion paths.
-
-### Challenges
-
-- The company owner and public-facing talent identity serve different legal and storytelling purposes.
-- A creator platform can become too dependent on one person if the data model is not designed for additional talent.
-- Social and affiliate data come from multiple platforms with inconsistent access and formats.
-
-### Lessons
-
-- Legal entity, founder, brand, and talent must be modeled separately.
-- The first talent profile should not limit the future ecosystem.
-- Analytics should measure meaningful paths—attention, inquiry, affiliate activity, and conversion—not just follower totals.
+**Private technical alpha.** The platform has meaningful integrations and workflows, but mobile QA and stabilization remain active.
 
 ---
 
-## OMNITAGE / Nigeria Compass
+### SafeBite
 
-### Progress
+#### Progress
 
-- Defined a Nigeria-first readiness and context platform with a path to broader countries and communities.
-- Added the “My Name, My Meaning” concept for Yoruba, Igbo, Hausa, and later additional languages.
-- Defined support for alternate spellings, nicknames, compound names, titles, diacritic-free input, pronunciation, literal meaning, cultural meaning, naming circumstances, related names, and family stories.
-- Established a long-term shared identity core with country, language, and community packs.
+- Continued Phase 1 recovery and reliability work.
+- Fixed a LiveData auto-sync render loop.
+- Strengthened backend-key configuration and replaced project-specific values in public documentation with safer placeholders.
+- Clarified setup guidance around Supabase credentials.
+- Continued repository cleanup and recovery documentation.
 
-### Challenges
+#### Challenges
 
-- A name may have multiple spellings, languages, communities, migrations, and family interpretations.
-- Diacritics and anglicized spellings can change meaning or pronunciation.
-- Search results may suggest an origin without proving it.
-- Cultural knowledge cannot be responsibly reduced to a single confident sentence.
+- Product lookup can appear successful even when ingredients, images, sources, or allergen results are incomplete.
+- Earlier platform and repository versions created source-of-truth uncertainty.
+- Backend configuration must support testing without exposing credentials or creating unsafe shortcuts.
+- Mobile image and analysis flows still need reliability work.
 
-### Lessons
+#### Lessons
 
-- The system must express likelihood and uncertainty.
-- Community and family knowledge should be supported alongside documented sources.
-- Literal translation, natural meaning, cultural use, and family story are different fields.
-- Nigeria is the proving ground, not the limit of the architecture.
+- Security cleanup and reliability fixes are release work, even when they do not add visible features.
+- Public documentation should explain configuration without including live values.
+- SafeBite must show sources, limitations, and verification guidance rather than imply a medical guarantee.
+- A product should remain in testing until its full scan-to-result path is dependable.
 
----
+#### Status
 
-## Repository and Platform Reorganization
-
-### Progress
-
-- Reconnected work to the intended GitHub account: **eazypeezytechnologies-ctrl**.
-- Added repositories for newer products that were missing from the ecosystem view.
-- Began defining one canonical repository per application.
-- Chose to keep active application code private while using this Portfolio repository for public progress.
-
-### Challenges
-
-- One GitHub connection initially pointed to an account without the required write access.
-- Several products had older Rork repositories and newer Bolt repositories.
-- SafeBite had multiple candidate repositories.
-- Transfers between prototyping platforms were not always clean; in some cases, rebuilding was more practical than forcing a migration.
-- Repository names and commit messages were not always descriptive enough to tell the product story.
-
-### Lessons
-
-- Every product needs a documented source of truth.
-- Migration should preserve requirements and decisions, not blindly carry forward every implementation.
-- Git history is most useful when repositories, branches, and commit messages are intentional.
-- Public portfolio documentation and private application source serve different purposes.
+**Active build and reliability work.** SafeBite is not being represented as publicly released or medically authoritative.
 
 ---
 
-## Cross-Project Technical Challenges
+### EazyAcres
 
-Across the ecosystem, recurring work included:
+#### Progress
 
-- state persistence and save failures;
-- render loops and blank-screen issues;
-- route and navigation inconsistencies;
-- form submission and contact-prefill behavior;
-- backend schema, upsert, and row-level-security questions;
-- environment variables and secret handling;
-- data-provider coverage and disagreement;
-- domain, repository, and service-account ownership;
-- mobile-first layout and user guidance;
-- balancing ambitious roadmaps with available credits and integration budgets.
+- Established the newer private repository foundation and continued source-of-truth cleanup.
+- Shifted near-term planning toward homeowner-transition readiness and guided experiences.
+- Continued mobile testing and prioritization of clearer next actions before deeper real-data integrations.
+- Preserved the broader long-term direction around buildability, zoning context, true costs, land potential, and responsible ownership decisions.
 
-These are not hidden from the portfolio because they are part of the work. The goal is not to pretend every first build worked. The goal is to show stronger decisions after each test.
+#### Challenges
 
-## Operating Principles Going Forward
+- Repository setup work can look like product completion when it is actually infrastructure preparation.
+- Property information varies by jurisdiction and must not be presented as official permission.
+- The product vision spans renters, buyers, owners, builders, and long-term family/legacy planning, which can overwhelm early flows.
 
-1. One canonical repository per active product.
-2. One separate backend project per app; no shared production database across unrelated products.
-3. Private source by default while products contain unpublished logic or sensitive configuration.
-4. Public progress documentation without secrets, client data, or inflated release claims.
-5. Manual and local-first validation before expensive automation.
-6. Source transparency and confidence labels for consequential information.
-7. Clear user guidance before adding more feature depth.
-8. Culture, history, identity, accessibility, and lived experience treated as product intelligence.
-9. Clean ownership and handoff for domains, repositories, hosting, app accounts, and client systems.
-10. Testing, documentation, and operational readiness treated as product development.
+#### Lessons
+
+- Start with one understandable readiness path before expanding every property scenario.
+- Infrastructure and repository organization should be documented as foundation work, not feature release.
+- Education, estimation, and official verification must remain distinct.
+
+#### Status
+
+**Functional prototype; active iteration.** Current emphasis is guided readiness and mobile QA, not a public zoning or development-data release.
+
+---
+
+### Àrokò — Guided Content Intelligence
+
+#### Progress
+
+- Established the current private repository foundation.
+- Confirmed GitHub as the durable manual content library while local storage remains prototype/test storage.
+- Preserved intake, research, brand profiles, drafts, approvals, prompt previews, audience fit, and culture-fit foundations.
+- Prioritized import/export before large-scale duplicate entry.
+- Chose a one-brand-at-a-time content-library approach, beginning with Eazy Peezy Technologies and then Àrokò.
+
+#### Challenges
+
+- Starting a repository is not the same as completing migration or synchronization.
+- Local prototype data and durable GitHub content can drift apart.
+- Automated publishing would add risk before the content library, sources, and approvals are stable.
+
+#### Lessons
+
+- Durable content operations need import/export and clear ownership before automation.
+- Manual libraries can be strategically valuable when they preserve brand truth and approval discipline.
+- Synchronization should detect and suggest changes rather than silently overwrite content.
+
+#### Status
+
+**Local-first prototype; repository foundation established.** Automatic publishing and production AI workflows remain intentionally out of scope.
+
+---
+
+### OMNITAGE / Nigeria Compass
+
+#### Progress
+
+- Established the current private repository foundation.
+- Continued early product work around authenticated onboarding, personalized dashboard paths, family roots, name meaning, and readiness guidance.
+- Preserved Nigeria as the first country pack while keeping the architecture expandable.
+
+#### Challenges
+
+- Repository initialization does not prove that every planned path is complete.
+- Heritage, language, identity, and family history require distinctions between documented evidence, oral history, family memory, and AI-assisted reconstruction.
+- Personalized cultural guidance must communicate confidence and uncertainty responsibly.
+
+#### Lessons
+
+- Cultural products need structured evidence fields and visible confidence labels.
+- Family memory should be preserved without being presented as independently verified history.
+- A focused first country pack is more responsible than prematurely claiming global coverage.
+
+#### Status
+
+**Early-stage product build.** Personalized paths exist in development, but broader cultural coverage and verification work remain ongoing.
+
+---
+
+### UnapologeticallyDeee
+
+#### Progress
+
+- Updated founder information and talent pages.
+- Fixed the Shop page and inquiry form.
+- Refined the Work With Us experience.
+- Continued public-site simplification and launch preparation.
+- Preserved the distinction between Danielle as founder/owner and Danielle Taylor as the public talent identity.
+
+#### Challenges
+
+- Legal ownership, founder story, public talent identity, and future multi-talent architecture serve different purposes.
+- Shop, partnership, talent, and company information can compete for attention on a small public site.
+- Launch preparation requires accurate contact paths and real media, not just completed layouts.
+
+#### Lessons
+
+- Founder, company, and talent should remain separate in both data and public storytelling.
+- A simpler public experience is often stronger than exposing every future feature.
+- Inquiry and partnership paths are core business functionality, not secondary pages.
+
+#### Status
+
+**Launch preparation.** The public foundation is substantially developed, but this journal does not claim a completed platform or analytics system.
+
+---
+
+### Repository and Workflow Operations
+
+#### Progress
+
+- Added or reorganized private repositories for multiple active products.
+- Continued the rule of private source code with public progress documentation.
+- Used more descriptive commits for major OwnOps, Kanto, website, and Isekai’d work.
+- Removed several temporary repair workflows after validation.
+
+#### Challenges
+
+- Some repository histories include generic “Start repository,” file-upload, or generated timestamp commits.
+- Temporary fixes can make recent activity look more substantial than the underlying product change.
+- Multiple historical repositories still require canonical-source decisions.
+
+#### Lessons
+
+- Commit volume is not a progress metric.
+- Public updates should summarize outcomes, challenges, and lessons—not count commits.
+- Generated files and temporary workflows should not remain in the source tree without a clear reason.
+- Repository status should be judged by source-of-truth clarity, documentation, security, and testability.
+
+---
+
+## Cross-Project Lessons From This Period
+
+1. **A source-backed workflow must preserve provenance from import through user action.**
+2. **Temporary operational tooling should be removed after recovery or validation.**
+3. **Security gates, credential lifecycle, and row-level access are product milestones.**
+4. **Demo content must never be confused with real user or production data.**
+5. **Live company infrastructure and released customer products are different statuses.**
+6. **Repository initialization is foundation work, not a release.**
+7. **Clear next actions create more value than another layer of features.**
+8. **Public documentation should be candid about unresolved mobile QA, data reliability, and verification work.**
 
 ## Next Build Period
 
-The next phase is focused on:
-
-- live smoke testing and launch cleanup for the Eazy Peezy Technologies website;
-- canonical repository decisions and README improvements across active products;
-- SafeBite data reliability and security;
-- OwnOps and EazyAcres guidance and real-data planning;
-- manual brand, audience, culture, and research refinement inside Àrokò;
-- early structured development for OMNITAGE;
-- continued cybersecurity study and Security+ preparation.
+- Continue OwnOps opportunity-source quality, fit guidance, and importer cleanup.
+- Continue SafeBite mobile reliability, image/ingredient/result continuity, and security review.
+- Continue EazyAcres homeowner-transition readiness and mobile QA.
+- Stabilize Isekai’d’s private technical alpha and verify real-data versus demo behavior.
+- Keep Kanto owner-only while expanding security and operating controls.
+- Build Àrokò import/export and the durable manual content-library workflow before publishing automation.
+- Maintain the live Eazy Peezy Technologies website and strengthen accurate public portfolio visibility.
+- Continue canonical repository, backend ownership, and documentation cleanup.
 
 ---
 
-**Last updated: June 30, 2026**
+## Earlier Period Summary — April 7–June 30, 2026
+
+During the previous build period, Eazy Peezy Technologies evolved from several individual prototypes into a more organized studio ecosystem. Major work included:
+
+- building the multipage company website and Technology Care & Management model;
+- SafeBite recovery, lookup-reliability planning, source transparency, and backend-key cleanup;
+- OwnOps six-stage guidance, business-model paths, requirements, jurisdictions, tasks, contacts, exports, and admin tools;
+- EazyAcres buildability, ownership-readiness, true-cost, funding, and community-context concepts;
+- Àrokò local-first intake, research, brand, draft, approval, prompt-preview, audience, and culture-fit workflows;
+- UnapologeticallyDeee founder/talent separation, shop, inquiry, and future creator-operations planning;
+- OMNITAGE/Nigeria Compass language, name-meaning, family-roots, and responsible-confidence foundations;
+- repository and platform reorganization around private canonical source and public progress reporting.
+
+The major lessons from that period remain active: one canonical repository per product, separate backend ownership, private source by default, source transparency for consequential information, manual-first validation, clear user guidance, culture as product intelligence, and honest readiness labels.
+
+---
+
+**Last updated: July 14, 2026**
