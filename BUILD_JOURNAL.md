@@ -2,6 +2,244 @@
 
 This journal records meaningful progress, setbacks, decisions, and lessons across Eazy Peezy Technologies projects. It does **not** claim that every product is publicly released or production-ready. Active source code, credentials, client data, private pricing, and unpublished product logic remain private.
 
+## July 15–28, 2026
+
+### Company and Public Portfolio
+
+#### Progress
+
+- Updated the public portfolio README with conservative project-status language and a clearer distinction between live company infrastructure, owner-only systems, prototypes, private alpha work, reliability work, research, and pre-build planning.
+- Refreshed public showcase documentation and branded assets for SafeBite, OwnOps, EazyAcres, and the Eazy Peezy Technologies website repository.
+- Preserved the older Product Scanner API as a historical prototype instead of presenting it as the current SafeBite product.
+- Kept active source repositories, credentials, client information, private pricing, private operating records, and unpublished product logic outside the public portfolio.
+
+#### Challenges
+
+- Public documentation can become inaccurate when a summary is updated without its linked detailed journal entry.
+- A polished repository or substantial internal feature can be mistaken for a released product unless maturity labels remain explicit.
+- Public progress reporting must be specific enough to be useful while remaining conservative about private implementation details.
+
+#### Lessons
+
+- README summaries and detailed journal entries should be reconciled in the same maintenance cycle.
+- Public documentation is an operational asset and needs evidence checks, not just copy editing.
+- Internal, draft, merged, validated, deployed, and publicly released are separate states.
+- Historical prototypes should remain clearly labeled so they do not create source-of-truth confusion.
+
+---
+
+### Kanto Command Center
+
+#### Progress
+
+- Added and tested an OwnOps Project Health snapshot receiver and owner review flow.
+- Added repeat-safe protections so retried project-health submissions do not create duplicate operational records.
+- Preserved owner/admin confirm and reject controls instead of allowing incoming project data to silently overwrite Kanto records.
+- Strengthened security boundaries around the internal reporting path.
+- Clarified project classifications so internal, manual-only, prototype, testing, and other operating states are easier to distinguish.
+- Added audit-aware token edit and void support and continued reconciliation of operating records.
+
+#### Challenges
+
+- Cross-project reporting can create duplicate snapshots, orphaned activity, or accidental status changes when retries and review boundaries are weak.
+- Token corrections must preserve history rather than silently changing prior operating records.
+- An internal dashboard can still expose sensitive cross-project, financial, and operational information if owner-only controls are treated casually.
+
+#### Lessons
+
+- Internal automation needs idempotency, review states, and audit history just as much as customer-facing systems do.
+- Corrections should be explainable and reversible without erasing the original record.
+- Owner-only is a product boundary, not a temporary label to minimize security work.
+
+#### Status
+
+**Internal operational tool; owner-only.** Kanto is not a public product.
+
+---
+
+### EazyAcres
+
+#### Progress
+
+- Separated structure size from lot size so building square footage is not presented as parcel area.
+- Added transparent acreage calculation rather than relying on unsupported or unclear property-size output.
+- Replaced overconfident zoning presentation with visible unverified labels and official-verification next actions.
+- Removed unsupported buildability, confidence, and return claims from the current trust layer.
+- Continued organizing the product around planning guidance while preserving the distinction between estimates and legally verified surveys, zoning determinations, permits, and professional conclusions.
+
+#### Challenges
+
+- Property interfaces can look authoritative even when parcel, zoning, setback, or jurisdictional data is incomplete or unverified.
+- Removing unsupported outputs can feel like reducing functionality even when it materially improves trust.
+- Structure size, lot size, buildable area, zoning permission, and financial return are related but not interchangeable facts.
+
+#### Lessons
+
+- Unknown and unverified are valid product states.
+- Consequential property guidance should direct users toward the correct official source or professional next action.
+- A trustworthy prototype may need fewer outputs, clearer labels, and stronger evidence boundaries.
+
+#### Status
+
+**Functional prototype; active trust-layer repair.** EazyAcres is not being presented as an official zoning, survey, permitting, buildability, or investment authority.
+
+---
+
+### Isekai’d
+
+#### Progress
+
+- Expanded anime details with original release dates, broadcast season and year, format, runtime, and franchise relationships.
+- Added next-airing context where source data supports it.
+- Kept anime metadata separate from streaming-provider availability and English-dub verification.
+- Improved retry handling for failed identification-resolution paths.
+- Continued work on reliable details, image handling, watchlist continuity, and evidence presentation.
+
+#### Challenges
+
+- Release metadata, provider availability, and English-dub status often come from different sources and may change on different schedules.
+- Provider data can be incorrectly reused to imply facts it does not verify.
+- Screenshot-identification failures require honest recovery paths rather than a false successful result.
+
+#### Lessons
+
+- Related data domains must remain separate in storage, sourcing, and user-facing claims.
+- Time-sensitive availability and dub information need source and verification context.
+- Retry handling is part of reliability, not an optional polish item.
+
+#### Status
+
+**Private technical alpha.** No public release occurred during this work.
+
+---
+
+### OwnOps
+
+#### Progress
+
+- Continued source-backed opportunity imports with provenance, verification, duplicate handling, and deadline awareness.
+- Expanded shortlist fit evaluation so saved opportunities can be assessed against business context and readiness.
+- Preserved opportunity context when moving from a shortlist into project setup.
+- Added project-health reporting into Kanto with owner review and repeat-safe behavior.
+
+#### Challenges
+
+- Opportunity records can become stale or misleading when source, date, eligibility, or verification context is lost.
+- A shortlist is not useful enough when it does not help the user understand fit or connect the opportunity to an active project.
+- New Business Discovery and Guided Setup work must not be described as shipped based only on draft or previously observed pull-request evidence.
+
+#### Lessons
+
+- Discovery, evaluation, project setup, and operating review should preserve the same decision context.
+- A draft or substantial implementation is not complete until its merge, validation, and manual-QA state is verified.
+- Source-backed guidance still needs clear limitations and user-specific next actions.
+
+#### Status
+
+**Functional prototype; active iteration.** This journal does not claim that newer Business Discovery Engine or Guided Setup work was shipped during this period without current merge and validation evidence.
+
+---
+
+### Àrokò — Guided Content Intelligence
+
+#### Progress
+
+- Established a GitHub-first manual content-library foundation using durable Markdown records.
+- Preserved human review, claim boundaries, cultural-context requirements, audience context, and brand-specific guidance.
+- Continued import/export planning so approved knowledge can move between the prototype and durable records without silent overwrites.
+- Kept automatic research and publishing outside the active scope while the manual foundation is reviewed.
+
+#### Challenges
+
+- Brand knowledge can drift when local prototype data and durable records do not have clear ownership and synchronization rules.
+- Automated research can amplify unsupported claims or weak cultural context before review standards are mature.
+- Publishing automation increases risk when approval, source, and portability workflows are incomplete.
+
+#### Lessons
+
+- Manual-first does not mean unstructured; durable records, evidence boundaries, review states, and portability are production-minded foundations.
+- Cultural context should be treated as a required content field, not optional tone decoration.
+- Automation should follow a trusted content system rather than substitute for one.
+
+#### Status
+
+**Manual content foundation; local-first prototype.** Automatic research and publishing remain deferred.
+
+---
+
+### SafeBite
+
+#### Progress
+
+- Continued reliability work around manual upload, image continuity, ingredient and result completeness, backend configuration, and mobile behavior.
+- Preserved public documentation boundaries that avoid exposing live credentials or implying medical authority.
+- Kept release language conservative while the complete upload-to-result path remains under verification.
+
+#### Challenges
+
+- A lookup can appear complete while images, ingredients, source details, or allergen results are missing.
+- Mobile image state can fail across upload, analysis, navigation, or reload boundaries.
+- Food-allergy guidance has higher trust requirements than a standard product lookup experience.
+
+#### Lessons
+
+- A successful screen is not a successful workflow when required evidence or result fields are incomplete.
+- End-to-end reliability must be tested across the full mobile path.
+- SafeBite should communicate sources, limitations, and verification guidance rather than imply a medical guarantee.
+
+#### Status
+
+**Active build and reliability work.** SafeBite is not being represented as publicly released or medically authoritative.
+
+---
+
+### Planning-Stage Products
+
+#### Progress
+
+- Continued product-definition and pre-build planning for StoryHeir, Glow&Go+, and TruPulls.
+- Clarified product boundaries, user value, safety or compliance considerations, visual direction, and future architecture without treating planning artifacts as completed software.
+
+#### Challenges
+
+- Detailed planning packets and strong visual concepts can be mistaken for implemented functionality.
+- Broad visions can create unnecessary build work before the smallest useful product path is validated.
+
+#### Lessons
+
+- Planning maturity and software maturity should be reported separately.
+- Pre-build work should reduce risk, clarify scope, and prevent unnecessary implementation rather than inflate release claims.
+
+#### Status
+
+**Foundation and build-readiness planning; not released.**
+
+---
+
+## Cross-Project Lessons From This Period
+
+1. **Unknown and unverified are valid product states.**
+2. **Internal integrations still require idempotency, review controls, and audit history.**
+3. **Structure size, parcel size, zoning, buildability, and investment return are separate claims.**
+4. **Metadata, provider availability, and English-dub verification must remain separate evidence domains.**
+5. **A draft pull request is not a shipped feature.**
+6. **Manual-first systems can be durable, reviewable, and production-minded.**
+7. **Reliability requires complete end-to-end behavior, not isolated successful screens.**
+8. **Public documentation must be reconciled against repository evidence before claiming completion.**
+
+## Next Build Period
+
+- Keep Kanto owner-only while improving reconciliation, review controls, connector oversight, and operational reliability.
+- Continue EazyAcres trust-layer repair, official-verification guidance, homeowner-readiness navigation, and mobile QA.
+- Stabilize Isekai’d identification, image handling, details continuity, watchlist behavior, and evidence presentation before any broader beta claim.
+- Verify the current merge, validation, and manual-QA state of newer OwnOps Business Discovery and Guided Setup work before updating public status.
+- Continue SafeBite manual-upload, image, ingredient, and result continuity work before public release claims.
+- Complete Àrokò’s first reviewed brand records and data-portability plan before automated research or publishing.
+- Maintain the live Eazy Peezy Technologies website and accurate public showcase repositories.
+- Continue pre-build planning for StoryHeir, Glow&Go+, and TruPulls without generating unnecessary implementation work.
+
+---
+
 ## July 1–14, 2026
 
 ### Company and Public Portfolio
@@ -329,4 +567,4 @@ The major lessons from that period remain active: one canonical repository per p
 
 ---
 
-**Last updated: July 14, 2026**
+**Last updated: July 28, 2026**
