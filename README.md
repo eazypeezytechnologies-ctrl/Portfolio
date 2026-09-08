@@ -28,16 +28,116 @@ My work starts with real problems: food-allergy safety, business readiness, prop
 | **TruPulls** | Premium smoke-culture ecosystem spanning merch, rentals, education, rewards, subscriptions, and future age-controlled commerce. | Phase 1 scope, visual system, content architecture, compliance boundaries, and consolidated build planning. | Build-readiness planning; not released |
 | **Cybersecurity Labs** | Hands-on practice in Linux, logging, permissions, SIEM fundamentals, and incident-response thinking. | Security+ preparation and practical documentation. | Ongoing |
 
-## Recent Progress — July 15–28, 2026
+## What We’ve Been Building — July 29–September 8, 2026
 
-- Advanced **Kanto Command Center** into an owner-only operational tool with a tested OwnOps Project Health snapshot and review flow, stronger idempotency and security controls, clearer project classifications, audit-aware token corrections, and reconciled operating records. This is internal infrastructure, not a public product release.
-- Reworked the **EazyAcres** trust layer to distinguish lot size from structure size, calculate acreage transparently, label unverified zoning honestly, direct users toward official verification, and remove unsupported buildability, confidence, and return claims.
-- Expanded **Isekai’d** release context with source-aware dates, format, runtime, franchise relationships, and next-airing information while separating anime metadata from provider availability and English-dub verification. The product remains a private technical alpha.
-- Continued **OwnOps** decision-support work. The opportunity-fit and Kanto reporting paths advanced, while a newer Business Discovery Engine and Guided Setup integration remain in an open draft pull request pending validation and manual review.
-- Created the **Àrokò manual content library foundation** with human review, claim boundaries, cultural-context requirements, durable Markdown records, and import/export planning. Automatic research and publishing remain intentionally deferred.
-- Refreshed public showcase repositories for SafeBite, OwnOps, and EazyAcres with clearer documentation and branded assets, updated the live website repository documentation, and labeled the older Product Scanner API as a historical prototype.
-- Continued planning for **Glow&Go+**, **StoryHeir**, and **TruPulls** without presenting planning packets, visual direction, or future architecture as completed software.
-- Kept **SafeBite** in reliability work because manual upload, image continuity, ingredient/result completeness, and end-to-end mobile behavior still need dependable testing.
+A lot has changed across Eazy Peezy Technologies since our last public update. The biggest shift is simple: we are moving beyond prototypes that merely look good and deeper into products and systems that are being tested against real-world problems, real user behavior, and real trust requirements.
+
+### Safer, smarter product decisions
+
+Across **SafeBite, EazyAcres, Isekai’d, and OMNITAGE**, we have continued strengthening the way our products handle uncertainty, verification, personal data, and source quality.
+
+That means fewer “confident guesses” and more honest answers such as:
+
+- verified
+- still needs confirmation
+- unavailable
+- unknown
+- requires an official source
+
+We believe trustworthy technology should be willing to say “we don’t know yet.”
+
+### Isekai’d moved forward in beta development
+
+**Isekai’d**, our anime discovery and tracking platform, completed a major beta repair and reliability milestone.
+
+Recent work has strengthened:
+
+- anime identification
+- release and franchise context
+- saved-title behavior
+- mobile reliability
+- recommendation intelligence
+- clearer separation between “this matches your taste” and “this is actually ready for you to watch”
+
+Recommendation Intelligence is still being tested and reviewed before broader release.
+
+### OMNITAGE is becoming more personal
+
+**OMNITAGE / Nigeria Compass** continued moving from cultural-information platform toward a more personal heritage experience.
+
+Recent work has focused on:
+
+- account and data security
+- Yorùbá language and pronunciation foundations
+- family-root experiences
+- responsible evidence and confidence handling
+- the developing **Great Tree** family visualization
+
+The Great Tree is still under active design and owner review rather than being presented as finished.
+
+### EazyAcres continues expanding property intelligence
+
+**EazyAcres** has grown well beyond basic property information.
+
+Recent research and product work has explored:
+
+- homeowner and land-readiness guidance
+- property due diligence
+- housing-repair and preservation resources
+- funding and financing pathways
+- utility and service-area research
+- inherited-property considerations
+- land and development opportunity research
+
+The focus remains helping people understand what questions to ask, what may be possible, and where official verification is still required.
+
+### OwnOps is getting better at helping people move forward
+
+**OwnOps** continues developing as a guided operating system for people starting, improving, buying, or running a business.
+
+Recent work has focused on:
+
+- safer project creation and recovery
+- guided business setup
+- preserving older user plans instead of forcing people to restart
+- business-discovery support
+- opportunity matching and decision support
+- stronger jurisdiction and compliance guidance
+- clearer next actions
+
+Several of these improvements remain in owner QA before release.
+
+### Kanto is becoming the operating layer behind the ecosystem
+
+Behind the scenes, **Kanto Command Center** continues evolving into the internal operating system we use to help manage the growing Eazy Peezy Technologies product ecosystem.
+
+Recent work has improved:
+
+- project-health reporting
+- GitHub activity context
+- operating priorities
+- structured actions
+- audit history
+- budget and usage reconciliation
+- separation between verified project health and unverified activity signals
+
+Kanto remains an internal, owner-only system.
+
+### And Eazy Peezy Technologies itself is evolving
+
+We have continued improving the company infrastructure around the products:
+
+- expanded **Technology Care & Management**
+- strengthened the live website and service positioning
+- developed better public content and brand foundations
+- continued testing revenue-focused offers and customer journeys
+- expanded our thinking around checkout friction, broken technology handoffs, customer-experience problems, and revenue leaks
+
+The goal remains the same:
+
+**Build useful technology. Solve real problems. Make technology easier to understand, operate, and trust.**
+
+There is much more coming—but we will continue sharing progress honestly as each piece earns its way from idea, to build, to testing, to release.
 
 See the [Build Journal](BUILD_JOURNAL.md) for the detailed update.
 
