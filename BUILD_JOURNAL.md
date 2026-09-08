@@ -2,6 +2,313 @@
 
 This journal records meaningful progress, setbacks, decisions, and lessons across Eazy Peezy Technologies projects. It does **not** claim that every product is publicly released or production-ready. Active source code, credentials, client data, private pricing, and unpublished product logic remain private.
 
+## July 29–September 8, 2026
+
+During this period, work across Eazy Peezy Technologies focused less on adding surface-level features and more on reliability, owner QA, security, trust, and clearer decision support.
+
+A recurring principle across the portfolio has been that a feature is not complete simply because it exists. It also has to work consistently, preserve user context, and communicate honestly when information is still unknown or unverified.
+
+### Company and Public Infrastructure
+
+#### Progress
+
+- Continued operating and improving the live Eazy Peezy Technologies website.
+- Added a dedicated **Technology Care & Management** path for ongoing support after an initial project or consultation.
+- Continued refining the customer journey from content and referrals into strategy, diagnostics, implementation, troubleshooting, and ongoing support.
+- Expanded public content around practical business technology problems such as checkout friction, disconnected systems, broken customer handoffs, and revenue leaks.
+- Created an Eazy Peezy Technologies brand content pack inside Àrokò to preserve brand direction, claims, audience context, and future content operations.
+- Continued using active product work as evidence of the kind of technology thinking Eazy Peezy brings to client work.
+
+#### Challenge
+
+Public documentation did not keep pace with the amount of product and operating work completed during the period.
+
+#### Lesson
+
+Building and communicating are separate operating responsibilities. Public updates need a regular cadence so customers, followers, collaborators, and potential partners can understand what is actually changing.
+
+---
+
+### SafeBite
+
+#### Progress
+
+SafeBite continued mobile-capture and reliability work around exact-product identification and profile-specific evaluation.
+
+Recent owner QA and development work included:
+
+- mobile barcode recognition
+- UPC/EAN validation
+- exact-product identity handling
+- photo fallback when barcode recognition is unavailable
+- known-versus-unknown product flows
+- correction and review paths
+- profile-specific product evaluation
+- stronger separation between allergies, intolerances, and sensitivities
+- continued ingredient, image, history, and result-integrity testing
+
+#### Challenges
+
+Real-world product capture is inconsistent. Barcodes can be blurry, packaging varies, products may have size or formula differences, and a successful scan does not automatically verify every ingredient or safety conclusion.
+
+#### Lessons
+
+- Exact-product identity matters.
+- Missing evidence should remain missing rather than be replaced with a guess.
+- “Unknown” is a valid result when evidence is incomplete.
+- Correction paths are necessary in any growing product database.
+
+#### Status
+
+**Active stabilization and owner QA.** SafeBite is not being represented as a medical authority or as a finished public release.
+
+---
+
+### Isekai’d
+
+#### Progress
+
+Isekai’d reached an important controlled-beta milestone during this period.
+
+A beta repair was reviewed, approved, and merged after focused mobile QA and technical validation. Recent work strengthened:
+
+- title identification
+- anime details and release context
+- franchise relationships
+- saved-title continuity
+- duplicate prevention
+- image and metadata reliability
+- separation between verified and unknown availability information
+- watchlist behavior
+
+A new **Recommendation Intelligence** layer is also in development. It separates **Taste Match** from **Watch-Now Readiness** rather than treating personal fit and current availability as the same thing.
+
+Owner QA identified issues including compressed scores, repetitive explanations, continuation recommendations without enough context, and a narrow candidate pool. Those issues were remediated in the draft branch, which remains under owner review.
+
+#### Challenges
+
+Recommendation quality depends on more than ranking. Scores need understandable evidence, franchise context matters, and streaming availability can change independently of title metadata.
+
+#### Lessons
+
+- Personalization should be explainable.
+- Popularity and personal fit are not the same thing.
+- Taste Match and Watch-Now Readiness should remain separate.
+- Owner QA can expose problems that automated validation cannot.
+
+#### Status
+
+**Controlled beta foundation with active Recommendation Intelligence QA.**
+
+---
+
+### OMNITAGE / Nigeria Compass
+
+#### Progress
+
+OMNITAGE continued maturing as a heritage, identity, language, and family-context platform.
+
+Major work during this period included:
+
+- production security hardening
+- account-isolation preservation
+- safer achievement behavior
+- protected pronunciation and audio access
+- Yorùbá language-learning foundations
+- family-root experiences
+- responsible evidence and confidence boundaries
+
+The approved **Great Tree** family visualization also entered implementation. The first version remains in draft owner QA and is not being presented as finished.
+
+#### Challenges
+
+Heritage and genealogy can combine formal records, oral history, family memory, community knowledge, and uncertain relationships. Those sources require different confidence and evidence treatment.
+
+#### Lessons
+
+- Family-history software should preserve uncertainty.
+- Cultural context belongs in the substance of the product, not only the styling.
+- Security and account isolation are foundational when storing family information.
+- Visual quality still requires usability and owner QA.
+
+#### Status
+
+**Active product development; Great Tree remains in draft QA.**
+
+---
+
+### EazyAcres
+
+#### Progress
+
+EazyAcres continued expanding its research and decision-support foundation.
+
+Recent work explored and documented:
+
+- Georgia homeowner funding resources
+- home repair and preservation programs
+- utility and service-area intelligence
+- weatherization and Healthy Homes resources
+- regional and local funding coverage
+- provider-resolution research
+- property due diligence
+- inherited-property and asset-survivability considerations
+- future financing intelligence
+- land and development opportunity research
+
+The product continues preserving an earlier trust rule: property information should not be presented with more certainty than the available evidence supports.
+
+#### Challenges
+
+Property decisions involve overlapping layers of parcel information, jurisdiction, zoning, utilities, financing, permits, funding programs, ownership, development constraints, and local rules. No single source answers every question.
+
+#### Lessons
+
+- Property intelligence is partly a routing problem, not only a data problem.
+- Local and jurisdiction-specific context matters.
+- Research should preserve source, geography, date, and verification state.
+- Responsible guidance should identify the next trustworthy question or source when the answer is not yet known.
+
+#### Status
+
+**Functional prototype with expanding research and trust infrastructure.**
+
+---
+
+### OwnOps
+
+#### Progress
+
+OwnOps continued reliability and guided-business-planning work.
+
+Recent work has focused on:
+
+- transaction-safe project creation
+- draft preservation and recovery
+- retry and duplicate safeguards
+- business setup intelligence
+- canonical jurisdiction handling
+- opportunity fit and shortlist context
+- richer task guidance
+- project-health reporting
+- preserving existing users' plans instead of forcing them to restart
+
+An owner-controlled plan-upgrade path has also been developed so older plans can receive newer guidance without silently removing completed work, notes, evidence, or existing task history. That work remains in draft owner QA.
+
+Business Discovery and Guided Setup improvements also remain under controlled review.
+
+#### Challenges
+
+Upgrading existing plans is more complex than creating new ones because user history, decisions, notes, and completed tasks already have value.
+
+#### Lessons
+
+- Product upgrades should respect user history.
+- “Start over” should not be the default migration strategy for established user workflows.
+- Review-before-mutation gives the owner control.
+- Idempotency and retry safety affect user experience, not just engineering quality.
+
+#### Status
+
+**Functional prototype; Phase 1B reliability and owner QA remain active.**
+
+---
+
+### Kanto Command Center
+
+#### Progress
+
+Kanto continued evolving as the internal operating layer behind the Eazy Peezy Technologies ecosystem.
+
+Recent improvements included:
+
+- structured project actions
+- Project Health signals
+- clearer project prioritization
+- GitHub engineering-activity context
+- stronger separation between engineering activity and confirmed project health
+- freshness awareness
+- reconciliation and audit controls
+- security and data-integrity work
+
+A key operating rule is now explicit: recent GitHub activity does not automatically mean a project is healthy, complete, or ready. Owner-confirmed project health remains the authoritative state.
+
+#### Current limitation
+
+The latest OwnOps Project Health handoff encountered a delivery/authentication blocker, so Kanto must continue displaying the older confirmed state rather than treating newer activity as verified health.
+
+#### Lessons
+
+- Fresh data and trustworthy data are not always the same thing.
+- Internal intelligence systems need evidence dates.
+- Owner confirmation should remain separate from automated observation.
+- Stale information should be labeled rather than silently replaced with assumptions.
+
+#### Status
+
+**Internal operational tool; owner-only.**
+
+---
+
+### Àrokò — Guided Content Intelligence
+
+#### Progress
+
+Àrokò continued developing its manual-first content intelligence foundation.
+
+Recent work included creating the Eazy Peezy Technologies brand content pack and strengthening rules around:
+
+- audience context
+- cultural fit
+- source and claim safety
+- brand-specific guidance
+- human approval
+- durable content records
+- future portability between tools
+
+Automatic publishing remains intentionally separate from owner approval.
+
+#### Challenge
+
+Content automation becomes risky when generation moves faster than source quality, cultural context, brand understanding, or approval rules.
+
+#### Lesson
+
+Content intelligence should precede broader content automation. The system needs to understand the brand, evidence, audience, culture, and approval boundary before automating more of the workflow.
+
+#### Status
+
+**Manual-first content intelligence foundation; active development.**
+
+---
+
+## Cross-Project Lessons From This Period
+
+1. **Unknown is a valid answer.**
+2. **Owner QA is part of development.**
+3. **A successful build does not automatically equal a successful user experience.**
+4. **Draft does not mean shipped.**
+5. **Merged does not automatically mean deployed.**
+6. **Activity does not automatically mean health.**
+7. **A user should not lose history because a product improves.**
+8. **Sources and verification dates matter when information can change.**
+9. **Security, trust, and correction workflows are product features.**
+10. **Removing unsupported certainty can be meaningful progress.**
+
+## Next Build Period
+
+- Complete owner QA on active product branches before release claims.
+- Continue SafeBite mobile-capture stabilization.
+- Validate Isekai’d Recommendation Intelligence.
+- Refine OMNITAGE's Great Tree experience.
+- Close OwnOps reliability and upgrade gaps.
+- Expand EazyAcres decision-support research responsibly.
+- Repair the current OwnOps-to-Kanto Project Health delivery blocker.
+- Keep the public portfolio current.
+- Connect more of Eazy Peezy Technologies' product-building experience to real customer technology problems.
+
+---
+
 ## July 15–28, 2026
 
 ### Company and Public Portfolio
@@ -567,4 +874,4 @@ The major lessons from that period remain active: one canonical repository per p
 
 ---
 
-**Last updated: July 28, 2026**
+**Last updated: September 8, 2026**
