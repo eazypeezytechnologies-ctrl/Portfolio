@@ -193,4 +193,4 @@ My background includes technical support leadership, mobile-device support, trou
 
 **Atlanta, Georgia**  
 **Founder, Eazy Peezy Technologies LLC**  
-**Tech Made Simple — For Lola**
+**Tech Made Simple — For Omi.**
