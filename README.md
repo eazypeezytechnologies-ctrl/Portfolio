@@ -175,17 +175,46 @@ A substantial pull request can still be unvalidated. A merged internal feature c
 
 I also use AI-assisted development tools as part of an iterative workflow, while keeping product decisions, testing, source evaluation, security review, and final accountability human-led.
 
+## November 2026 — Release and Portfolio Continuity Checkpoint
+
+*Research checkpoint prepared November 2, 2026; the intended November 1 portfolio review was missed. This is a candidate documentation update, not a verified production release or an Owner-approved status change.*
+
+### November execution order
+
+1. **Kanto Command Center — first.** Complete the isolated Owner Project Brief + Continuity V1 QA environment, validate exact revision and synthetic Owner access, and obtain Owner acceptance. The dedicated Supabase QA project exists, but operational schema, isolated identity, authenticated smoke tests, and iPhone Owner QA remain unverified. The approved candidate is draft PR #13. Do not apply private-storage drafts or conflate Admin View with private Owner's Vault.
+2. **Eazy Peezy Technologies website — second.** Existing site is live, but collaboration/advisory intake and durable Owner notification recovery remain candidate work in draft PRs #8 and #9. Hosted QA must establish exact revision, separate backend, genuine synthetic submission persistence, Owner inbox delivery, retry safety, permissions and mobile usability before release. Do not claim website-to-Kanto intake ingestion exists until it is independently verified; website Supabase remains the intake system of record in the candidate.
+3. **Isekai’d — third, after the first two.** Public beta and prior repair checkpoints exist, but recommendation-intelligence draft PR #5, sequel/progress accuracy, explanation quality, identification limits, dub/source evidence and owner mobile acceptance remain open. An App Store listing is not verified; native distribution requires a separate release gate.
+
+### Other products — preserve, do not expand November scope
+
+| Product or initiative | Supported checkpoint | Blocker / next verification |
+|---|---|---|
+| SafeBite Ask | Competition review package submitted; separate consumer product remains unreleased | Await competition outcome; do not equate judge simulation with consumer availability |
+| SafeBite consumer | Prototype/testing | Ingredient and image reliability, source boundaries, mobile QA and distribution |
+| UnapologeticallyDeee | Public site previously launched; current live status requires verification | Confirm inquiry, storefront and affiliate/payment dependencies |
+| OwnOps | Testing / integrated candidate PRs #4–6 | Owner QA, operating-loop completion, integration freshness and real pilot evidence |
+| EazyAcres | Pre-publish candidate PR #3; family homebuyer pilot research | Property title, independent condition evidence, beginner-first financing and professional-resource guidance |
+| Àrokò | Manual content foundation; brand correction PR #1 draft | Owner QA of correction, claims boundaries and complete workflow verification |
+| OMNITAGE | Testing/foundation PRs #2–3 | Isolated QA, genealogy identity/relationship history and Owner acceptance |
+| Glow&Go+, StoryHeir, TruPulls | Concept/foundation or relaunch planning | Scope, validation and compliance before release |
+| Mo nBọ Services, BJegede Photos | Business operations; current public readiness unverified | Confirm operating services, booking/invoicing and compliance evidence |
+| Is That My Ca, Hello Uncle Baba!, CommonsKey | Tracked concept or research | Product definition, audience validation and separate authorization |
+| Knight OS, The Paw | Client pilots | Client-specific evidence and acceptance, not consumer release |
+| A Tale of Two Tundés | Private Owner-only concept | Remains outside public portfolio detail and release promotion |
+
+### Release evidence and imagery
+
+Existing approved project logos, screenshots, and brand artwork should be reused **only after their source, ownership and current approval are verified**. No new images were added in this checkpoint, and missing artwork must remain marked as unavailable. Do not reuse private Owner-only imagery or screenshots containing sensitive data.
+
+A live site, draft PR, technical build, competition submission, owner QA, and native App Store publication are separate milestones. Public release claims require direct evidence. No production, backend, permissions or billing changes are authorized by this document.
+
 ## Current Priorities
 
-1. Continue EazyAcres data-trust repair, official-verification guidance, homeowner-readiness navigation, and mobile QA.
-2. Stabilize Isekai’d identification, image handling, details continuity, watchlist behavior, and evidence presentation before any broader beta claim.
-3. Validate the OwnOps Business Discovery Engine draft with focused diff review, type checking, build validation, and manual wizard testing before merge.
-4. Keep Kanto owner-only while improving reconciliation, audit history, connector controls, and operational reliability.
-5. Continue SafeBite manual-upload, image, ingredient, and result continuity work before public release claims.
-6. Complete Àrokò’s first reviewed brand packs and data-portability plan before automated research or publishing.
-7. Maintain the live Eazy Peezy Technologies website and accurate public showcase repositories.
-8. Continue pre-build planning for StoryHeir, Glow&Go+, and TruPulls without generating unnecessary implementation work.
-9. Continue Security+ preparation and practical cybersecurity labs.
+1. Complete Kanto's isolated PR #13 Owner QA and confirm an operating, secure continuity foundation.
+2. Finish Eazy Peezy website collaboration/intake and notification-recovery QA, then release only after verified acceptance.
+3. After both gates pass, evaluate Isekai’d for a scoped public beta and separate native App Store readiness.
+4. Keep all other products at their documented checkpoints; avoid new build scope and spending without an explicit Owner decision.
+5. Continue WGU and Security+ exam preparation (exam booked for November 30, 2026).
 
 ## About the Builder
 
