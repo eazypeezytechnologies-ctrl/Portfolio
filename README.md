@@ -14,21 +14,31 @@ My work starts with real problems: food-allergy safety, business readiness, prop
 
 | Project | What it is built to solve | Current focus | Status |
 |---|---|---|---|
-| **SafeBite** | Helps people check food, beauty, and household products against allergies and ingredient concerns. | Manual-upload continuity, image and result reliability, source transparency, allergen profiles, secure backend configuration, and mobile QA. | Active build and reliability work |
+| **SafeBite** | Helps people check food, beauty, and household products against allergies and ingredient concerns. | Product identification, ingredient evidence, and mobile release validation. | iOS release candidate merged; public distribution not verified |
 | **OwnOps** | Guides people through starting, buying, improving, or operating a business. | Business discovery, guided setup, source-backed opportunities, shortlist fit, project attachment, project-health reporting, requirements, and next actions. | Functional prototype; active iteration |
 | **EazyAcres** | Helps users understand property possibilities and prepare for ownership or development decisions. | Data trust, building-versus-lot separation, calculated acreage, official zoning-verification guidance, homeowner readiness, and mobile QA. | Functional prototype; active trust-layer repair |
 | **Àrokò — Guided Content Intelligence** | Turns ideas, links, screenshots, and research into brand-aware content workflows. | GitHub-first manual content library, reviewed brand packs, claim boundaries, audience and cultural context, and import/export planning. | Manual content foundation; local-first prototype |
-| **Eazy Peezy Technologies Website** | Public hub for services, products, research, consultations, and ongoing Technology Care & Management. | Live-site operations, project storytelling, referrals, analytics, navigation, and service visibility. | Live; ongoing improvement |
+| **Eazy Peezy Technologies Website** | Public hub for services, products, research, consultations, and ongoing Technology Care & Management. | Public service and project information; intake reliability and isolated QA for proposed improvements. | Live; new intake changes are in QA |
 | **UnapologeticallyDeee** | Creator-business platform supporting a public talent identity and scalable company operation. | Public-site simplification, founder/talent separation, shop and inquiry flows, real media assets, and launch preparation. | Launch preparation |
 | **OMNITAGE / Nigeria Compass** | Readiness, identity, culture, and context platform beginning with Nigeria. | Authenticated personalized paths, family roots, name meaning, readiness guidance, and responsible confidence labels. | Early-stage product build |
-| **Isekai’d** | Anime discovery, watchlist, review, creator-content, and community platform. | Release context, franchise relationships, provider and dub verification boundaries, identification reliability, watchlist continuity, and mobile QA. | Private technical alpha |
-| **Kanto Command Center** | Owner-only operating dashboard for the Eazy Peezy ecosystem. | Project-health review, audit-aware token tracking, budget reconciliation, security controls, connector oversight, and portfolio operations. | Internal operational tool; owner-only |
+| **Isekai’d** | Anime discovery, watchlist, review, creator-content, and community platform. | Release context, franchise relationships, provider and dub verification boundaries, identification reliability, watchlist continuity, and mobile QA. | Controlled beta work; broader availability not verified |
+| **Kanto Command Center** | Owner-only operating dashboard for the Eazy Peezy ecosystem. | Project continuity, reporting accuracy, and access review. | Internal operational tool; owner-only |
 | **Glow&Go+** | Inclusive wellness, movement, confidence, and optional creator-support product. | Clean architecture, mobile-first planning, MVP boundaries, safety, and privacy. | Foundation / pre-build planning |
 | **StoryHeir** | Helps children and families co-create stories while preserving imagination, literacy, memories, and legacy. | Parent-child workflow, AI-assistance boundaries, safety, keepsake value, and MVP planning. | Foundation / pre-build planning |
 | **TruPulls** | Premium smoke-culture ecosystem spanning merch, rentals, education, rewards, subscriptions, and future age-controlled commerce. | Phase 1 scope, visual system, content architecture, compliance boundaries, and consolidated build planning. | Build-readiness planning; not released |
 | **Cybersecurity Labs** | Hands-on practice in Linux, logging, permissions, SIEM fundamentals, and incident-response thinking. | Security+ preparation and practical documentation. | Ongoing |
 
-## What We’ve Been Building — July 29–September 8, 2026
+## Portfolio checkpoint — November 9, 2026
+
+This checkpoint covers selected milestones supported by repository records. A merge records a source change; public availability requires separate release evidence.
+
+- **July 29–August 5:** The website merged launch navigation and inquiry-path fixes. Kanto repaired internal project-health reporting, and OMNITAGE refined Family Roots and onboarding. OwnOps retained its prototype classification.
+- **September–October:** The live website’s repository gained stronger intake handling and dedicated SafeBite privacy and support pages. SafeBite’s native iOS candidate was merged separately; that does not establish App Store availability. SafeBite Ask’s competition review package is separate from the consumer app.
+- **November 1–9:** Website work focused on keeping QA analytics separate from production and preventing duplicate audit inquiries on retry. The changes are still candidates. Kanto remains owner-only, and Website-to-Kanto intake is not a live integration. EazyAcres expanded its adaptive-reuse research without changing prototype status.
+
+See the [Build Journal](BUILD_JOURNAL.md) for the dated record and where evidence stops.
+
+## What We Were Building — July 29–September 8, 2026
 
 A lot has changed across Eazy Peezy Technologies since our last public update. The biggest shift is simple: we are moving beyond prototypes that merely look good and deeper into products and systems that are being tested against real-world problems, real user behavior, and real trust requirements.
 
@@ -175,46 +185,11 @@ A substantial pull request can still be unvalidated. A merged internal feature c
 
 I also use AI-assisted development tools as part of an iterative workflow, while keeping product decisions, testing, source evaluation, security review, and final accountability human-led.
 
-## November 2026 — Release and Portfolio Continuity Checkpoint
-
-*Research checkpoint prepared November 2, 2026; the intended November 1 portfolio review was missed. This is a candidate documentation update, not a verified production release or an Owner-approved status change.*
-
-### November execution order
-
-1. **Kanto Command Center — first.** Complete the isolated Owner Project Brief + Continuity V1 QA environment, validate exact revision and synthetic Owner access, and obtain Owner acceptance. The dedicated Supabase QA project exists, but operational schema, isolated identity, authenticated smoke tests, and iPhone Owner QA remain unverified. The approved candidate is draft PR #13. Do not apply private-storage drafts or conflate Admin View with private Owner's Vault.
-2. **Eazy Peezy Technologies website — second.** Existing site is live, but collaboration/advisory intake and durable Owner notification recovery remain candidate work in draft PRs #8 and #9. Hosted QA must establish exact revision, separate backend, genuine synthetic submission persistence, Owner inbox delivery, retry safety, permissions and mobile usability before release. Do not claim website-to-Kanto intake ingestion exists until it is independently verified; website Supabase remains the intake system of record in the candidate.
-3. **Isekai’d — third, after the first two.** Public beta and prior repair checkpoints exist, but recommendation-intelligence draft PR #5, sequel/progress accuracy, explanation quality, identification limits, dub/source evidence and owner mobile acceptance remain open. An App Store listing is not verified; native distribution requires a separate release gate.
-
-### Other products — preserve, do not expand November scope
-
-| Product or initiative | Supported checkpoint | Blocker / next verification |
-|---|---|---|
-| SafeBite Ask | Competition review package submitted; separate consumer product remains unreleased | Await competition outcome; do not equate judge simulation with consumer availability |
-| SafeBite consumer | Prototype/testing | Ingredient and image reliability, source boundaries, mobile QA and distribution |
-| UnapologeticallyDeee | Public site previously launched; current live status requires verification | Confirm inquiry, storefront and affiliate/payment dependencies |
-| OwnOps | Testing / integrated candidate PRs #4–6 | Owner QA, operating-loop completion, integration freshness and real pilot evidence |
-| EazyAcres | Pre-publish candidate PR #3; family homebuyer pilot research | Property title, independent condition evidence, beginner-first financing and professional-resource guidance |
-| Àrokò | Manual content foundation; brand correction PR #1 draft | Owner QA of correction, claims boundaries and complete workflow verification |
-| OMNITAGE | Testing/foundation PRs #2–3 | Isolated QA, genealogy identity/relationship history and Owner acceptance |
-| Glow&Go+, StoryHeir, TruPulls | Concept/foundation or relaunch planning | Scope, validation and compliance before release |
-| Mo nBọ Services, BJegede Photos | Business operations; current public readiness unverified | Confirm operating services, booking/invoicing and compliance evidence |
-| Is That My Ca, Hello Uncle Baba!, CommonsKey | Tracked concept or research | Product definition, audience validation and separate authorization |
-| Knight OS, The Paw | Client pilots | Client-specific evidence and acceptance, not consumer release |
-| A Tale of Two Tundés | Private Owner-only concept | Remains outside public portfolio detail and release promotion |
-
-### Release evidence and imagery
-
-Existing approved project logos, screenshots, and brand artwork should be reused **only after their source, ownership and current approval are verified**. No new images were added in this checkpoint, and missing artwork must remain marked as unavailable. Do not reuse private Owner-only imagery or screenshots containing sensitive data.
-
-A live site, draft PR, technical build, competition submission, owner QA, and native App Store publication are separate milestones. Public release claims require direct evidence. No production, backend, permissions or billing changes are authorized by this document.
-
 ## Current Priorities
 
-1. Complete Kanto's isolated PR #13 Owner QA and confirm an operating, secure continuity foundation.
-2. Finish Eazy Peezy website collaboration/intake and notification-recovery QA, then release only after verified acceptance.
-3. After both gates pass, evaluate Isekai’d for a scoped public beta and separate native App Store readiness.
-4. Keep all other products at their documented checkpoints; avoid new build scope and spending without an explicit Owner decision.
-5. Continue WGU and Security+ exam preparation (exam booked for November 30, 2026).
+- Validate improvements to the live website’s intake in isolated QA before making release claims.
+- Keep Kanto owner-only while reviewing project continuity and access boundaries.
+- Continue product testing and research within each project’s current stage. Broader beta or store availability requires separate evidence.
 
 ## About the Builder
 
