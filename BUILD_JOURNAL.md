@@ -2,11 +2,37 @@
 
 This journal records meaningful progress, setbacks, decisions, and lessons across Eazy Peezy Technologies projects. It does **not** claim that every product is publicly released or production-ready. Active source code, credentials, client data, private pricing, and unpublished product logic remain private.
 
+## November 1–9, 2026
+
+- **Eazy Peezy Technologies Website:** Drafts addressed analytics isolation in QA and safer Revenue Leak Audit retries. The existing site is live. The draft changes and the proposed Collaboration & Advisory intake are not presented as public releases, and a build or QA preview does not establish live delivery or persistence.
+- **Kanto Command Center:** Continued review of project continuity and a proposed read-only website intake connection. The design and synthetic reference work do not establish live data access. Kanto remains an internal, owner-only tool.
+- **EazyAcres:** Expanded adaptive-reuse research from former school sites to a wider range of vacant and underused buildings. This is research; prototype maturity is unchanged.
+
+**Lesson:** Separate a test result from a release, and a documented integration design from an operating data connection. No broader release was verified for the other projects in this checkpoint.
+
+## September 9–October 31, 2026
+
+- **Eazy Peezy Technologies Website:** September source merges strengthened existing intake and tester paths. October source merges added dedicated SafeBite privacy and support pages and refined the SafeBite project icon. The icon merge alone does not establish that its final revision reached the live site. Collaboration & Advisory intake remained a draft.
+- **SafeBite:** The native iOS release candidate merged with privacy, safety, and accessibility work. Public App Store distribution is not verified. Separately, the SafeBite Ask competition review package was prepared in October; package preparation does not establish submission, selection, or consumer availability.
+- **Kanto Command Center:** Project tracking and project-health fixes merged; continuity work remained in review. This was internal work and did not change the owner-only classification.
+- **OMNITAGE / Nigeria Compass and Àrokò:** Family-history foundations and brand documentation, respectively, advanced in draft review. Neither supports a new release claim.
+
+**Lesson:** A website change about a product, a native release candidate, and a competition package are separate milestones.
+
 ## July 29–September 8, 2026
 
 During this period, work across Eazy Peezy Technologies focused less on adding surface-level features and more on reliability, owner QA, security, trust, and clearer decision support.
 
 A recurring principle across the portfolio has been that a feature is not complete simply because it exists. It also has to work consistently, preserve user context, and communicate honestly when information is still unknown or unverified.
+
+### July 29–August 5 checkpoint
+
+- **Eazy Peezy Technologies Website:** The launch cleanup merged on August 3, improving navigation and making inquiry and referral paths clearer. The prepared-email flow still required the visitor to send the message; the cleanup did not establish stored form submissions. **Status:** Live site; ongoing improvement.
+- **Kanto Command Center:** August merges restored validation and corrected project-health and data-integrity behavior. **Status:** Internal operational tool; owner-only.
+- **OMNITAGE / Nigeria Compass:** Repository changes refined Family Roots, onboarding, and access handling, and laid groundwork for Yorùbá audio and achievements. Release hardening followed outside this window, so these changes do not establish broader availability. **Status:** Active development.
+- **OwnOps:** The evidence for this window did not establish a new milestone on the canonical branch. **Status:** Functional prototype.
+
+**Lesson:** Clear inquiry instructions and accurate project reporting matter as much as new features. A commit date gives us a history point; it does not by itself tell readers what was publicly available. See [Portfolio Issue #1](https://github.com/eazypeezytechnologies-ctrl/Portfolio/issues/1) for the reconciliation record.
 
 ### Company and Public Infrastructure
 
@@ -874,4 +900,4 @@ The major lessons from that period remain active: one canonical repository per p
 
 ---
 
-**Last updated: September 8, 2026**
+**Last updated: November 9, 2026**
